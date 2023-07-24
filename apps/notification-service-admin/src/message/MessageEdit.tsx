@@ -3,9 +3,9 @@ import {
   Edit,
   SimpleForm,
   EditProps,
+  TextInput,
   ReferenceInput,
   SelectInput,
-  TextInput,
 } from "react-admin";
 import { TemplateTitle } from "../template/TemplateTitle";
 
@@ -13,6 +13,7 @@ export const MessageEdit = (props: EditProps): React.ReactElement => {
   return (
     <Edit {...props}>
       <SimpleForm>
+        <TextInput label="description" multiline source="description" />
         <ReferenceInput
           source="template.id"
           reference="Template"

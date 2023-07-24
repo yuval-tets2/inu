@@ -20,12 +20,14 @@ const nonExistingId = "nonExistingId";
 const existingId = "existingId";
 const CREATE_INPUT = {
   createdAt: new Date(),
+  description: "exampleDescription",
   id: "exampleId",
   updatedAt: new Date(),
   values: "exampleValues",
 };
 const CREATE_RESULT = {
   createdAt: new Date(),
+  description: "exampleDescription",
   id: "exampleId",
   updatedAt: new Date(),
   values: "exampleValues",
@@ -33,6 +35,7 @@ const CREATE_RESULT = {
 const FIND_MANY_RESULT = [
   {
     createdAt: new Date(),
+    description: "exampleDescription",
     id: "exampleId",
     updatedAt: new Date(),
     values: "exampleValues",
@@ -40,6 +43,7 @@ const FIND_MANY_RESULT = [
 ];
 const FIND_ONE_RESULT = {
   createdAt: new Date(),
+  description: "exampleDescription",
   id: "exampleId",
   updatedAt: new Date(),
   values: "exampleValues",
