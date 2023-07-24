@@ -59,6 +59,7 @@ export class MessageControllerBase {
       },
       select: {
         createdAt: true,
+        description: true,
         id: true,
 
         template: {
@@ -91,6 +92,7 @@ export class MessageControllerBase {
       ...args,
       select: {
         createdAt: true,
+        description: true,
         id: true,
 
         template: {
@@ -124,6 +126,7 @@ export class MessageControllerBase {
       where: params,
       select: {
         createdAt: true,
+        description: true,
         id: true,
 
         template: {
@@ -174,6 +177,7 @@ export class MessageControllerBase {
         },
         select: {
           createdAt: true,
+          description: true,
           id: true,
 
           template: {
@@ -215,6 +219,7 @@ export class MessageControllerBase {
         where: params,
         select: {
           createdAt: true,
+          description: true,
           id: true,
 
           template: {
